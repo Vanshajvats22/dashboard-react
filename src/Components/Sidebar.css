@@ -1,0 +1,83 @@
+.sidebar {
+    width: 250px;
+    height: 100%;
+    background-color: #fff;
+    /* position: fixed;
+    top: 0;
+    left: 0; */
+    /* padding: 20px; */
+  }
+  
+  .logo {
+    display: flex;
+    height: 130px;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 0 0 30px 0;
+    
+  
+  }
+  .logo img{
+    width: 180px;
+    height: 35px;
+    position: relative;
+    top: 20px;
+    left: 28px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  nav ul li {
+   height: 50px;
+   display: flex;
+   align-items: center;
+  
+  }
+  
+  nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    gap: 10px;
+    
+  }
+  
+  nav ul li.active a {
+    color: #0056e0;
+    font-weight: bold;
+    border-left: 20px  ;
+    background-color: #f7f8fc;
+    border-radius: 25px 0 0 25px;
+
+  }
+  nav ul li a:hover {
+    color: #0056e0;
+    font-weight: bold;
+    border-left: 20px  ;
+    background-color: #f7f8fc;
+    border-radius: 25px 0 0 25px;
+  }
+
+ 
+  nav ul li a span{
+    background-color: #f7f8fc;
+    height: 34px;
+    width: 34px;
+    padding: 5px;
+    border-radius: 10px;
+    color: #0056e0;
+    margin-left: 15px;
+   
+    
+   
+  }

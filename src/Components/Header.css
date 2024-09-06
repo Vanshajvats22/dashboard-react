@@ -1,0 +1,61 @@
+.header {
+    background-color: #fff;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: fixed;
+    top: 0px;
+    left: 250px; */
+  }
+  
+  .header h2 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .client-info {
+    width: 100%;
+    height: 40px;
+    color: #555;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 60px;
+    gap: 50px;
+  
+  }
+  .username{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 2px solid blue;
+    border-radius: 10px;
+  font-size: 12px;
+  height: 40px;
+  width: 120px;
+  }
+ 
+ .client{
+  margin-top: 7px;
+ }
+  .bell{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 33px;
+    width: 33px;
+    border: 1px solid blue;
+    border-radius: 50px;
+  }
+  .bell img{
+    height: 22px;
+    width: 22px;
+  }
+  .uicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
